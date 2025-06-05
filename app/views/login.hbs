@@ -1,0 +1,72 @@
+<div class="background-animation">
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+</div>
+
+<div
+  class="container d-flex justify-content-center align-items-center min-vh-100"
+>
+  <div class="glass-card">
+    <h1 class="login-title">
+      <i class="fas fa-lock"></i>
+      Iniciar Sesión
+    </h1>
+
+    <h5 class="d-flex justify-content-center align-items-center vh-50 error-no-mostrado error">
+
+    </h5>
+
+    <form method="post" class="form-login">
+      <div class="form-group">
+        <label for="usuario" class="form-label">
+          <i class="fas fa-user me-2"></i>Usuario
+        </label>
+        <input
+          type="text"
+          class="form-control"
+          id="usuario"
+          name="usuario"
+          placeholder="Ingresa tu usuario"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="contrasena" class="form-label">
+          <i class="fas fa-key me-2"></i>Contraseña
+        </label>
+        <input
+          type="password"
+          class="form-control"
+          id="contrasena"
+          name="contrasena"
+          placeholder="Ingresa tu contraseña"
+          required
+        />
+      </div>
+
+      <button type="submit" class="btn btn-modern">
+        <i class="fa-solid fa-arrow-right-to-bracket me-2"></i>
+        Entrar
+      </button>
+
+
+    </form>
+
+      <a class="btn btn-modern mt-3" href="/register" rel="noopener noreferrer">
+        ¿Aún sin cuenta? Registrate
+      </a>
+
+    <div class="forgot-password">
+      <a href="/forgot-password" class="text-decoration-none">
+        <i class="fas fa-question-circle me-1"></i>
+        ¿Olvidaste tu contraseña?
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="/js/login.js"></script>
