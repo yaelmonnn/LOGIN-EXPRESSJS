@@ -37,7 +37,8 @@ A secure and modular login system built with **ExpressJS** and the **Handlebars*
 - [Cookie Parser](https://www.npmjs.com/package/cookie-parser) – Manejo de cookies / Cookie handling  
 - [MSSQL](https://www.npmjs.com/package/mssql) – Conector para SQL Server / SQL Server connector  
 - [DotEnv](https://www.npmjs.com/package/dotenv) – Manejo de variables de entorno / Env variable management  
-- [Nodemon](https://www.npmjs.com/package/nodemon) – Recarga automática en desarrollo / Dev-only auto-reloader  
+- [Nodemon](https://www.npmjs.com/package/nodemon) – Recarga automática en desarrollo / Dev-only auto-reloader
+- [Express-Session](https://www.npmjs.com/package/express-session) – Para el manejo de sessiones / For the session management  
 
 ---
 
